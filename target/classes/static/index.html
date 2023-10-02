@@ -14,8 +14,6 @@
           href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
     <script src="/webjars/jquery/jquery.min.js"></script>
     <script src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
 </head>
 
 <body>
@@ -23,7 +21,7 @@
 <H1 style="margin-left:2rem" color="black">Blueprints</H1>
 <label style="margin-left:2rem" COLOR="black">Author</label>
 <input id = "AuthorInput"style = "margin-left:2rem" name="Author" type="text">
-<button style = "margin-left:2rem" id="GetBlueprintsButton" onclick="Blueprint.actualizarPlanos()" >GetbluePrints</button>
+<button style = "margin-left:2rem" id="GetBlueprintsButton" class="btn btn-success" onclick="Blueprint.actualizarPlanos()" >GetbluePrints</button>
 <br><br><br>
 <br><br><br>
 <table style = "width:30%;margin-left:2rem" >
@@ -41,8 +39,8 @@
 <br>
 <canvas id="myCanvas" width="300" height="300" style="position: absolute;left: 60rem; bottom: 30rem; border:1px solid rgb(7, 0, 41);"></canvas>
 <div style="position: absolute;left: 60rem; bottom: 25rem;">
-    <button onclick="Blueprint.salvarPlano()" >Save/Update</button>
-    <button onclick="Blueprint.deletePrint()" >Delete</button>
+    <button onclick="Blueprint.salvarPlano()" class="btn btn-success" >Save/Update</button>
+    <button onclick="Blueprint.deletePrint()" class="btn btn-danger">Delete</button>
 </div>
 </body>
 </html>
