@@ -2,7 +2,9 @@
 <html lang="en">
 <style>
     table, th, td {
-        border:1px solid black;
+        border:2px solid black;
+        background-color: #C5F5CD;
+
     }
 </style>
 
@@ -14,6 +16,8 @@
           href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
     <script src="/webjars/jquery/jquery.min.js"></script>
     <script src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/apimock.js"></script>
+    <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -21,16 +25,16 @@
 <H1 style="margin-left:2rem" color="black">Blueprints</H1>
 <label style="margin-left:2rem" COLOR="black">Author</label>
 <input id = "AuthorInput"style = "margin-left:2rem" name="Author" type="text">
-<button style = "margin-left:2rem" id="GetBlueprintsButton" class="btn btn-success" onclick="Blueprint.actualizarPlanos()" >GetbluePrints</button>
+<button style = "margin-left:2rem" id="GetBlueprintsButton" class="btn btn-success" onclick="Blueprint.updatePlanos()" >GetbluePrints</button>
 <br><br><br>
 <br><br><br>
-<table style = "width:30%;margin-left:2rem" >
+<table style = "width:40%;margin-left:2rem" >
     <tr>
         <thead>
         <th text-align="center" >BluePrint name</th>
         <th text-align="center" >Number of points</th>
-        <th text-align="center" >Open</th>
-        <th></th>
+        <th text-align="center" COLOR="black" >Open</th>
+
         </thead>
     </tr>
 </table>

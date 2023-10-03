@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142372b0-e827-4867-9a3a-0d9fbdf63be8" name="Changes" comment="Proyecto anterior">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="142372b0-e827-4867-9a3a-0d9fbdf63be8" name="Changes" comment="Detalles &#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;&#10;Co-authored-by: XimenaRodriguez20 &lt;123812926+ximenarodriguez20@users.noreply.github.com&gt;&#10;Co-authored-by: SantiagoMelo0104 &lt;123812833+santiagomelo0104@users.noreply.github.com&gt;&#10;Co-authored-by: JordyBautista10 &lt;123812969+jordybautista10@users.noreply.github.com&gt;">
+      <changelist_data name="Erika Juliana Castro Romero" email="118181224+juc28@users.noreply.github.com" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +18,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature/Front-End-Vistas" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +61,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/Front-End-Vistas&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/Front-End-Lógica&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/OneDrive/Imágenes/ARSW-LAB06&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -75,6 +75,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\OneDrive\Documentos\ARSW-LAB06\src\main\resources\static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="BlueprintsAPIApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="blueprints-api" />
@@ -97,6 +102,8 @@
       <workItem from="1696205356422" duration="1364000" />
       <workItem from="1696207281282" duration="1509000" />
       <workItem from="1696258711283" duration="3413000" />
+      <workItem from="1696265265805" duration="849000" />
+      <workItem from="1696340130227" duration="10802000" />
     </task>
     <task id="LOCAL-00001" summary="Proyecto anterior">
       <option name="closed" value="true" />
@@ -106,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696207377660</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Detalles &#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;&#10;Co-authored-by: XimenaRodriguez20 &lt;123812926+ximenarodriguez20@users.noreply.github.com&gt;&#10;Co-authored-by: SantiagoMelo0104 &lt;123812833+santiagomelo0104@users.noreply.github.com&gt;&#10;Co-authored-by: JordyBautista10 &lt;123812969+jordybautista10@users.noreply.github.com&gt;">
+      <option name="closed" value="true" />
+      <created>1696265449376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696265449376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +129,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Proyecto anterior" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto anterior" />
+    <MESSAGE value="Detalles" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/feature/Front-End-Vistas' into feature/Front-End-Vistas&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml" />
+    <MESSAGE value="Detalles &#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;&#10;Co-authored-by: XimenaRodriguez20 &lt;123812926+ximenarodriguez20@users.noreply.github.com&gt;&#10;Co-authored-by: SantiagoMelo0104 &lt;123812833+santiagomelo0104@users.noreply.github.com&gt;&#10;Co-authored-by: JordyBautista10 &lt;123812969+jordybautista10@users.noreply.github.com&gt;" />
+    <MESSAGE value="Merge pull request #2 from Juc28/feature/Front-End-Vistas&#10;&#10;Feature/front end vistas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #2 from Juc28/feature/Front-End-Vistas&#10;&#10;Feature/front end vistas" />
   </component>
 </project>
