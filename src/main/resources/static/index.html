@@ -1,46 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<style>
-    table, th, td {
-        border:1px solid black;
-    }
-</style>
+<html>
 
 <head>
-    <title color="black">Blueprints</title>
+    <title>home</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-          href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <script src="/webjars/jquery/jquery.min.js"></script>
-    <script src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/webjars/jquery/3.1.0/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        table {
+            border-collapse: collapse;
+            background-color: #C5F5CD;
+            width: 90%;
+        }
+
+        th, td {
+            border: 2px  solid greenyellow;
+        }
+
+        #myCanvas {
+            border: 2px solid blueviolet;
+        }
+    </style>
 </head>
 
+
 <body>
-<body onload="Blueprint.init()">
-<H1 style="margin-left:2rem" color="black">Blueprints</H1>
-<label style="margin-left:2rem" COLOR="black">Author</label>
-<input id = "AuthorInput"style = "margin-left:2rem" name="Author" type="text">
-<button style = "margin-left:2rem" id="GetBlueprintsButton" class="btn btn-success" onclick="Blueprint.actualizarPlanos()" >GetbluePrints</button>
-<br><br><br>
-<br><br><br>
-<table style = "width:30%;margin-left:2rem" >
-    <tr>
-        <thead>
-        <th text-align="center" >BluePrint name</th>
-        <th text-align="center" >Number of points</th>
-        <th text-align="center" >Open</th>
-        <th></th>
-        </thead>
-    </tr>
-</table>
-<br><br>
-<label style = "margin-left:2rem" id="blueprintsPointsLabel">Total user points</label><label style = "margin-left:2rem" id="totalPoints"></label>
-<br>
-<canvas id="myCanvas" width="300" height="300" style="position: absolute;left: 60rem; bottom: 30rem; border:1px solid rgb(7, 0, 41);"></canvas>
-<div style="position: absolute;left: 60rem; bottom: 25rem;">
-    <button onclick="Blueprint.salvarPlano()" class="btn btn-success" >Save/Update</button>
-    <button onclick="Blueprint.deletePrint()" class="btn btn-danger">Delete</button>
+<h1>Blueprints</h1>
+<input type="text" id="autor"> </input>
+<button type="submit" id="ingresar" onclick="BlueprintsModule.run()" )>
+    Get Blueprints
+</button>
+<div class="row">
+    <div class="col-md-6">
+        <h2><i id="authorname"></i> Blueprints:</h2>
+    </div>
+    <div class="col-md-6">
+        <h2> Current blueprint:<i id="blueprintname"></i> </h2>
+    </div>
 </div>
+
+<div class="row">
+    <div class="col-md-6">
+        <table style="width:100%" id="table" class="table">
+            <tr>
+                <th>Blueprints name</th>
+                <th>number of projects</th>
+                <th>open blueprint</th>
+            </tr>
+            <tbody id="cuerpo"></tbody>
+        </table>
+
+
+    </div>
+    <div class="col-xl-6">
+        <canvas id="myCanvas" width="500px" height="300px" style="border:1px solid #000000;">
+        </canvas>
+    </div>
+</div>
+
+
+
+<h2>Total user points:<i id="totalPoints"></i></h2>
+<script src="js/apimock.js"></script>
+<script src="js/app.js"></script>
+
 </body>
+
 </html>
