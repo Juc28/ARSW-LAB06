@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142372b0-e827-4867-9a3a-0d9fbdf63be8" name="Changes" comment="Detalles &#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;&#10;Co-authored-by: XimenaRodriguez20 &lt;123812926+ximenarodriguez20@users.noreply.github.com&gt;&#10;Co-authored-by: SantiagoMelo0104 &lt;123812833+santiagomelo0104@users.noreply.github.com&gt;&#10;Co-authored-by: JordyBautista10 &lt;123812969+jordybautista10@users.noreply.github.com&gt;">
-      <changelist_data name="Erika Juliana Castro Romero" email="118181224+juc28@users.noreply.github.com" />
+    <list default="true" id="142372b0-e827-4867-9a3a-0d9fbdf63be8" name="Changes" comment="ya dibuja :3&#10;&#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;&#10;Co-authored-by: XimenaRodriguez20 &lt;123812926+ximenarodriguez20@users.noreply.github.com&gt;&#10;Co-authored-by: SantiagoMelo0104 &lt;123812833+santiagomelo0104@users.noreply.github.com&gt;&#10;Co-authored-by: JordyBautista10 &lt;123812969+jordybautista10@users.noreply.github.com&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/apimock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/apimock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/apimock.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/apimock.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,20 +24,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Erika Juliana Castro Romero &lt;118181224+juc28@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="feature/Front-End-Vistas" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-        <option value="develop" />
-      </list>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,38 +47,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/Front-End-Lógica&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/OneDrive/Imágenes/ARSW-LAB06&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "fixed/Front-End-Lógica",
+    "last_opened_file_path": "C:/Users/julia/OneDrive/Imágenes/ARSW-LAB06",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\julia\OneDrive\Documentos\ARSW-LAB06\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BlueprintsAPIApplication">
+    <configuration name="BlueprintsAPIApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprintsapi.BlueprintsAPIApplication" />
+      <module name="blueprints-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.arsw.blueprintsapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BlueprintsAPIApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="blueprints-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.eci.arsw.blueprintsapi.BlueprintsAPIApplication" />
@@ -88,6 +99,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BlueprintsAPIApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -121,18 +137,39 @@
       <option name="project" value="LOCAL" />
       <updated>1696265449376</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ya dibuja :3&#10;&#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;&#10;Co-authored-by: XimenaRodriguez20 &lt;123812926+ximenarodriguez20@users.noreply.github.com&gt;&#10;Co-authored-by: SantiagoMelo0104 &lt;123812833+santiagomelo0104@users.noreply.github.com&gt;&#10;Co-authored-by: JordyBautista10 &lt;123812969+jordybautista10@users.noreply.github.com&gt;">
+      <option name="closed" value="true" />
+      <created>1696519380456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696519380456</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Proyecto anterior" />
     <MESSAGE value="Detalles" />
     <MESSAGE value="Merge remote-tracking branch 'origin/feature/Front-End-Vistas' into feature/Front-End-Vistas&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;pom.xml" />
-    <MESSAGE value="Detalles &#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;&#10;Co-authored-by: XimenaRodriguez20 &lt;123812926+ximenarodriguez20@users.noreply.github.com&gt;&#10;Co-authored-by: SantiagoMelo0104 &lt;123812833+santiagomelo0104@users.noreply.github.com&gt;&#10;Co-authored-by: JordyBautista10 &lt;123812969+jordybautista10@users.noreply.github.com&gt;" />
     <MESSAGE value="Merge pull request #2 from Juc28/feature/Front-End-Vistas&#10;&#10;Feature/front end vistas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #2 from Juc28/feature/Front-End-Vistas&#10;&#10;Feature/front end vistas" />
+    <MESSAGE value="Detalles &#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;&#10;Co-authored-by: XimenaRodriguez20 &lt;123812926+ximenarodriguez20@users.noreply.github.com&gt;&#10;Co-authored-by: SantiagoMelo0104 &lt;123812833+santiagomelo0104@users.noreply.github.com&gt;&#10;Co-authored-by: JordyBautista10 &lt;123812969+jordybautista10@users.noreply.github.com&gt;" />
+    <MESSAGE value="Merge pull request #3 from Juc28/feature/Front-End-Lógica&#10;&#10;Feature/front end lógica" />
+    <MESSAGE value="ya dibuja :3&#10;&#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;&#10;Co-authored-by: XimenaRodriguez20 &lt;123812926+ximenarodriguez20@users.noreply.github.com&gt;&#10;Co-authored-by: SantiagoMelo0104 &lt;123812833+santiagomelo0104@users.noreply.github.com&gt;&#10;Co-authored-by: JordyBautista10 &lt;123812969+jordybautista10@users.noreply.github.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ya dibuja :3&#10;&#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;&#10;Co-authored-by: XimenaRodriguez20 &lt;123812926+ximenarodriguez20@users.noreply.github.com&gt;&#10;Co-authored-by: SantiagoMelo0104 &lt;123812833+santiagomelo0104@users.noreply.github.com&gt;&#10;Co-authored-by: JordyBautista10 &lt;123812969+jordybautista10@users.noreply.github.com&gt;" />
   </component>
 </project>

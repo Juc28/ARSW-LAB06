@@ -1,74 +1,80 @@
-Blueprint = (function(){
-    var Author = $("#AuthorInput").val(); //El nombre del autor actual.
-    var AuthorNew;
-    var blueprints; //Una lista de los planes del autor.
-    var UserPoints;
-    var plano;
-    var bps2; // Un plano específico en formato de objeto del autor especificado.
-    var planoM;
-    var bp; //Un plano específico en formato de objeto del autor especificado.
-    var canvas;
-    var canvasM;
-    var ctx;
-    var ID; // Nombre del plano
-    var bps; //
-    var apiMock = apimock;
-    /**
-     * Funcion callback. Se necesita como parametro para usar las funciones de apimock
-     * @param {Array} list
-     */
-    var fun=function(list){
-        blueprints = list;
-    }
+var api=apimock
+blueprintOpen = false
 
-    /**
-     * Función para actualizar la visualización de la puntuación HTML de acuerdo con.
-     * todos los puntos combinados de los planes del autor.
-     * */
-    function updateTotalUPoints()  {
-        // Obtenemos los puntos de todos los planos del autor.
-        const pointsM = planoM.map((plano) => plano.puntos);
-        // Calcula el total de puntos.
-        const points = pointsM.reduce((total, sum) => total + sum, 0);
-        // Actualiza la visualización de la puntuación HTML.
-        $("#totalPoints").html(points);
-    }
+var BlueprintsModule = (function(){
 
-    /**
-     * Función que se crea para sumar dos valores.
-     * @param {number} total
-     * @param {number} sum
-     * @returns
-     */
-    function getSum(total,sum){
-        return total + sum;
-    }
-
-    function updatePlanos(){
-        apiMock.getBlueprintsByAuthor($("#AuthorInput").val(),fun);
-        bps = blueprints;
-        bps2 = bps.map(function(bp){
-            plano = {nombre:bp.name, puntos: bp.points.length};
-            return plano;
-        });
-        planoM = bps2;
-        $("table tbody").empty();
-        BlueprintTable = bps2.map(function(plano){
-            const columna = `<tr>
-                                        <td align="center" id="${plano.nombre}">${plano.nombre}</td>
-                                        <td align="center">${plano.puntos}</td>
-                                        <td><button onclick="Blueprint.dibujarPlano(${plano.nombre}.id)">Open</button></td>
-                                    </tr>`;
-
-            $("table tbody").append(columna);
-            return columna;
-        });
-        updateTotalUPoints();
-
-    }
-    return{
-       updatePlanos: updatePlanos,
+    var graficarPlano = function(nameAutor,namePlano){
+        blueprintOpen = true;
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath()
+        ctx.clearRect(0, 0, c.width, c.height);
+        console.log(c.width, c.height)
+        funcion=getBlueprintsByNameAndAuthor(api.getBlueprintsByAuthor(nameAutor,getBlueprints),namePlano);
+        funcion.map(function(f){
+            console.log(f.x)
+            ctx.lineTo(f.x,f.y);
+            ctx.stroke();
+        })
+        ctx.closePath()
+        console.log(getBlueprintsByNameAndAuthor(api.getBlueprintsByAuthor(nameAutor,getBlueprints),namePlano))
+        $("#blueprintname").text(namePlano)
     };
 
+    var getBlueprints = function(funcion){
+        return funcion;
+    };
+
+    var getBlueprintsByNameAndAuthor = function (funcion,name) {
+        var points=[]
+        funcion.map(function(f){
+            if(f.name==name){
+                points=f.points
+            }
+        });
+        return points;
+    };
+
+    var getByAuthor = function (funcion) {
+        return funcion.map(function(f){
+            return {name:f.name,points:Object.keys(f.points).length};
+        });
+    };
+
+
+    var generarTable = function (name,funcion) {
+        $("#cuerpo").html("");
+        var total=0
+        $("#totalPoints").text(total)
+        funcion.map(function(f) {
+            $('#cuerpo')
+                .append(
+                    `<tr>
+					<td>`+f.name+`</td>
+					<td>`+f.points+`</td>`+
+                    "<td><form><button type='button' class='btn btn-primary' onclick='BlueprintsModule.graficarPlano( \"" +
+                    name +
+                    '" , "' +
+                    f.name +
+                    "\")'>Open</button></form></td>"+
+                    `</tr>`
+                );
+            total+=f.points
+        });
+        $("#totalPoints").text(total)
+        $("#authorname").text(name+"'s")
+    };
+
+
+
+    var run = function() {
+        var nameAutor = $('#autor').val();
+
+        generarTable(nameAutor,api.getBlueprintsByAuthor(nameAutor,getByAuthor));
+    }
+
+    return {
+        run: run,
+        graficarPlano: graficarPlano
+    };
 })();
-Blueprint;
