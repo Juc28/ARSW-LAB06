@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="blueprints-api" />
+        <module name="ARSW-LAB06" />
       </profile>
     </annotationProcessing>
   </component>
